@@ -1,0 +1,75 @@
+=== Wyniki symulacji ===
+Liczba procesów: 25
+
+
+=== Porównanie FCFS i Round Robin ===
+Liczba procesów: 25
+[Zbyt wiele procesów do wyświetlenia listy]
+
+== FCFS ==
+FCFS Scheduling:
+Process | Burst | Waiting | Turnaround
+--------|-------|---------|-----------
+     P1 |     4 |       0 |          4
+     P2 |     7 |       4 |         11
+     P3 |     8 |      11 |         19
+     P4 |     6 |      19 |         25
+     P5 |     9 |      25 |         34
+     P6 |     8 |      34 |         42
+     P7 |     5 |      42 |         47
+     P8 |    10 |      47 |         57
+     P9 |     8 |      57 |         65
+    P10 |    10 |      65 |         75
+    P11 |     7 |      75 |         82
+    P12 |     1 |      82 |         83
+    P13 |    10 |      83 |         93
+    P14 |     3 |      93 |         96
+    P15 |     1 |      96 |         97
+    P16 |     1 |      97 |         98
+    P17 |     4 |      98 |        102
+    P18 |     3 |     102 |        105
+    P19 |     2 |     105 |        107
+    P20 |     5 |     107 |        112
+    P21 |     6 |     112 |        118
+    P22 |     5 |     118 |        123
+    P23 |     4 |     123 |        127
+    P24 |     8 |     127 |        135
+    P25 |     1 |     135 |        136
+Average Waiting Time: 74
+Average Turnaround Time: 79
+
+== Round Robin (quantum=5) ==
+Round Robin Scheduling (Quantum: 5):
+Zbyt wiele procesów do wyświetlenia szczegółów. Pokazuję tylko podsumowanie.
+
+Process | Waiting | Turnaround
+--------|---------|-----------
+     P1 |       0 |          4
+     P2 |      35 |        101
+     P3 |      34 |        104
+     P4 |      36 |        105
+     P5 |      33 |        109
+     P6 |      34 |        112
+     P7 |      13 |         34
+     P8 |      32 |        117
+     P9 |      34 |        120
+    P10 |      32 |        125
+    P11 |      35 |        127
+    P12 |      28 |         55
+    P13 |      32 |        132
+    P14 |      33 |         63
+    P15 |      33 |         64
+    P16 |      33 |         65
+    P17 |      33 |         69
+    P18 |      33 |         72
+    P19 |      33 |         74
+    P20 |      33 |         79
+    P21 |      36 |        133
+    P22 |      34 |         89
+    P23 |      34 |         93
+    P24 |      34 |        136
+    P25 |      37 |         99
+
+Average Waiting Time: 31
+Average Turnaround Time: 91
+Total Processes: 25
